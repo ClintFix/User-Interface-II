@@ -123,3 +123,30 @@ header div p {
     height: 300px;
     width: 100%;
 }
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    padding: 0 10px 40px;
+}
+
+.projects .flexProject {
+    padding: 10px;
+    flex-basis: 300px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects .flexProject img {
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.projects .flexProject p {
+    font-size: 1.6em;
+    max-width: 300px;
+    padding: 10px;
+}
