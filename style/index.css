@@ -92,10 +92,10 @@ nav a:last-child {
 
 nav a:hover {
     color: rgb(22, 40, 145);
-    background-color: white;
-    -moz-box-shadow: inset 0 0 10px rgb(22,40,145);
-    -webkit-box-shadow: inset 0 0 10px rgb(22, 40, 145);
-    box-shadow: inset 0 0 10px rgb(22, 40, 145);
+    background-color: rgb(247, 247, 247);
+    -moz-box-shadow: inset 0 0 5px rgb(22,40,145);
+    -webkit-box-shadow: inset 0 0 5px rgb(22, 40, 145);
+    box-shadow: inset 0 0 5px rgb(22, 40, 145);
 }
 
 header div {
@@ -155,10 +155,11 @@ footer {
     padding: 40px;
     background-color: rgb(78, 78, 78);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
-footer a {
+.contactMe a {
     width: 150px;
     text-align: center;
     padding: 10px 25px;
@@ -170,8 +171,45 @@ footer a {
     transition: 200ms;
 }
 
-footer a:hover {
+.contactMe a:hover {
     -moz-box-shadow: inset 0 0 10px rgb(22,40,145);
     -webkit-box-shadow: inset 0 0 10px rgb(22, 40, 145);
     box-shadow: inset 0 0 10px rgb(22, 40, 145);
+}
+
+.socials {
+    display: flex;
+    justify-content: end;
+
+}
+
+.socialLinks {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    object-fit:contain;
+}
+
+.socialLinks a {
+    display: block;
+    height: 100%;
+}
+
+#facebook {
+    background:url("https://image.flaticon.com/icons/png/512/124/124010.png");
+    background-size: 60px 60px;
+    background-color: white;
+}
+
+#twitter {
+    background:url("https://icon-library.com/images/twitter-icon-white-png/twitter-icon-white-png-0.jpg");
+    background-size: 60px 60px;
+    background-color: white;
+}
+
+#linkedin {
+    background:url("https://assets.dryicons.com/uploads/icon/svg/8337/a347cd89-1662-4421-be90-58e5e8004eae.svg");
+    background-size: 60px 60px;
+    background-color: white;
+
 }
