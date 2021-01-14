@@ -63,6 +63,7 @@ h1 {
     font-size: 4em;
     font-weight: bold;
     margin: 20px 40px;
+    text-transform: uppercase;
 }
 
 nav {
@@ -131,13 +132,18 @@ header div p {
     padding: 0 10px 40px;
 }
 
-.projects .flexProject {
+.flexProject {
     padding: 10px;
     flex-basis: 300px;
     align-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.flexProject:hover img {
+    transition: 300ms;
+    opacity: 0.2;
 }
 
 .projects .flexProject img {

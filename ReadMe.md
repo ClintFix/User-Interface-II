@@ -27,7 +27,7 @@ Follow these steps to set up and work on your project:
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Push commits: git push origin `<firstName-lastName>`.
  
 ### Task 2: Minimum Viable Product
 
@@ -38,7 +38,7 @@ Once your repository is set up, practice what you learned today to create a port
 - [x]  Information about you in place of the given placeholder
 - [x]  A `My Projects` button that links to the projects page
 - [x]  A `Contact Me` button that links to the contact page
-- [ ]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
+- [x]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
 
 ### Task 3: Stretch Goals
 
