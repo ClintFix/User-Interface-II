@@ -219,3 +219,57 @@ footer {
     background-color: white;
 
 }
+
+/* Max-Width 800px */
+@media (max-width: 800px) {
+    .hero img {
+        height: 150px;
+    }
+}
+
+/* Max-Width 500px */
+@media (max-width: 500px) {
+    header {
+        margin-top: 40px;
+    }
+    
+    .hero {
+        width: 95vw;
+        margin: 0 auto;
+    }
+
+    nav {
+        flex-direction: column;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    nav a {
+        margin-bottom: 5%;
+        border-radius: 10px;
+    }
+    
+    nav a:first-child {
+        border-radius: 10px;
+    }
+    
+    nav a:last-child {
+        border-radius: 10px;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .contactMe {
+        margin-bottom: 40px;
+    }
+
+    .socialLinks {
+        margin: 10px;
+    }
+}
